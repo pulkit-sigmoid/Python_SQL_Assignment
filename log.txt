@@ -1,0 +1,579 @@
+INFO:root:Connection Succeful
+2022-03-08 14:44:37,258:INFO:Connection Successful
+2022-03-08 14:45:32,987:INFO:Connection Successful
+2022-03-08 14:45:32,987:INFO:
+Data in Employee table
+
+2022-03-08 14:45:32,990:INFO:[Decimal('7369'), 'SMITH', 'CLERK', Decimal('7902'), datetime.date(1980, 12, 17), Decimal('800.00'), None, Decimal('20')]
+2022-03-08 14:45:32,990:INFO:[Decimal('7499'), 'ALLEN', 'SALESMAN', Decimal('7698'), datetime.date(1981, 2, 20), Decimal('1600.00'), Decimal('300.00'), Decimal('30')]
+2022-03-08 14:45:32,990:INFO:[Decimal('7521'), 'WARD', 'SALESMAN', Decimal('7698'), datetime.date(1981, 2, 22), Decimal('1250.00'), Decimal('500.00'), Decimal('30')]
+2022-03-08 14:45:32,990:INFO:[Decimal('7566'), 'JONES', 'MANAGER', Decimal('7839'), datetime.date(1981, 4, 2), Decimal('2975.00'), None, Decimal('20')]
+2022-03-08 14:45:32,990:INFO:[Decimal('7654'), 'MARTIN', 'SALESMAN', Decimal('7698'), datetime.date(1981, 9, 28), Decimal('1250.00'), Decimal('1400.00'), Decimal('30')]
+2022-03-08 14:45:32,991:INFO:[Decimal('7698'), 'BLAKE', 'MANAGER', Decimal('7839'), datetime.date(1981, 5, 1), Decimal('2850.00'), None, Decimal('30')]
+2022-03-08 14:45:32,991:INFO:[Decimal('7782'), 'CLARK', 'MANAGER', Decimal('7839'), datetime.date(1981, 6, 9), Decimal('2450.00'), None, Decimal('10')]
+2022-03-08 14:45:32,991:INFO:[Decimal('7788'), 'SCOTT', 'ANALYST', Decimal('7566'), datetime.date(1987, 4, 19), Decimal('3000.00'), None, Decimal('20')]
+2022-03-08 14:45:32,991:INFO:[Decimal('7839'), 'KING', 'PRESIDENT', None, datetime.date(1981, 11, 17), Decimal('5000.00'), None, Decimal('10')]
+2022-03-08 14:45:32,991:INFO:[Decimal('7844'), 'TURNER', 'SALESMAN', Decimal('7698'), datetime.date(1981, 9, 8), Decimal('1500.00'), Decimal('0.00'), Decimal('30')]
+2022-03-08 14:45:32,991:INFO:[Decimal('7876'), 'ADAMS', 'CLERK', Decimal('7788'), datetime.date(1987, 5, 23), Decimal('1100.00'), None, Decimal('20')]
+2022-03-08 14:45:32,991:INFO:[Decimal('7900'), 'JAMES', 'CLERK', Decimal('7698'), datetime.date(1981, 12, 3), Decimal('950.00'), None, Decimal('30')]
+2022-03-08 14:45:32,991:INFO:[Decimal('7902'), 'FORD', 'ANALYST', Decimal('7566'), datetime.date(1981, 12, 3), Decimal('3000.00'), None, Decimal('20')]
+2022-03-08 14:45:32,991:INFO:[Decimal('7934'), 'MILLER', 'CLERK', Decimal('7782'), datetime.date(1982, 1, 23), Decimal('1300.00'), None, Decimal('10')]
+2022-03-08 14:45:32,991:INFO:
+Data in Department table
+
+2022-03-08 14:45:32,995:INFO:[Decimal('10'), 'ACCOUNTING', 'NEW YORK']
+2022-03-08 14:45:32,995:INFO:[Decimal('20'), 'RESEARCH', 'DALLAS']
+2022-03-08 14:45:32,995:INFO:[Decimal('30'), 'SALES', 'CHICAGO']
+2022-03-08 14:45:32,995:INFO:[Decimal('40'), 'OPERATIONS', 'BOSTON']
+2022-03-08 14:45:32,995:INFO:
+Data in Joblist Table
+
+2022-03-08 14:45:32,998:INFO:[Decimal('7788'), datetime.date(1987, 4, 19), datetime.date(1988, 4, 12), 'CLERK', Decimal('1000.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 14:45:32,998:INFO:[Decimal('7788'), datetime.date(1988, 4, 13), datetime.date(1989, 5, 4), 'CLERK', Decimal('1040.00'), None, Decimal('20'), 'Raise']
+2022-03-08 14:45:32,998:INFO:[Decimal('7900'), datetime.date(1981, 12, 3), datetime.date(1983, 1, 14), 'CLERK', Decimal('950.00'), None, Decimal('10'), 'New Hire']
+2022-03-08 14:45:32,998:INFO:[Decimal('7369'), datetime.date(1980, 12, 17), datetime.date(2022, 3, 7), 'CLERK', Decimal('800.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 14:45:32,998:INFO:[Decimal('7499'), datetime.date(1981, 2, 20), datetime.date(2022, 3, 7), 'SALESMAN', Decimal('1600.00'), Decimal('300.00'), Decimal('30'), 'New Hire']
+2022-03-08 14:45:32,998:INFO:[Decimal('7521'), datetime.date(1981, 2, 22), datetime.date(2022, 3, 7), 'SALESMAN', Decimal('1250.00'), Decimal('500.00'), Decimal('30'), 'New Hire']
+2022-03-08 14:45:32,998:INFO:[Decimal('7566'), datetime.date(1981, 4, 2), datetime.date(2022, 3, 7), 'MANAGER', Decimal('2975.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 14:45:32,998:INFO:[Decimal('7654'), datetime.date(1981, 9, 28), datetime.date(2022, 3, 7), 'SALESMAN', Decimal('1250.00'), Decimal('1400.00'), Decimal('30'), 'New Hire']
+2022-03-08 14:45:32,998:INFO:[Decimal('7698'), datetime.date(1981, 5, 1), datetime.date(2022, 3, 7), 'MANAGER', Decimal('2850.00'), None, Decimal('30'), 'New Hire']
+2022-03-08 14:45:32,998:INFO:[Decimal('7782'), datetime.date(1981, 6, 9), datetime.date(2022, 3, 7), 'MANAGER', Decimal('2450.00'), None, Decimal('10'), 'New Hire']
+2022-03-08 14:45:32,998:INFO:[Decimal('7788'), datetime.date(1990, 5, 5), datetime.date(2022, 3, 7), 'ANALYST', Decimal('3000.00'), None, Decimal('20'), 'Promoted to Analyst']
+2022-03-08 14:45:32,998:INFO:[Decimal('7839'), datetime.date(1981, 11, 17), datetime.date(2022, 3, 7), 'PRESIDENT', Decimal('5000.00'), None, Decimal('10'), 'New Hire']
+2022-03-08 14:45:32,998:INFO:[Decimal('7844'), datetime.date(1981, 9, 8), datetime.date(2022, 3, 7), 'SALESMAN', Decimal('1500.00'), Decimal('0.00'), Decimal('30'), 'New Hire']
+2022-03-08 14:45:32,998:INFO:[Decimal('7876'), datetime.date(1987, 5, 23), datetime.date(2022, 3, 7), 'CLERK', Decimal('1100.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 14:45:32,998:INFO:[Decimal('7900'), datetime.date(1983, 1, 15), datetime.date(2022, 3, 7), 'CLERK', Decimal('950.00'), None, Decimal('30'), 'Changed to Dept 30']
+2022-03-08 14:45:32,998:INFO:[Decimal('7902'), datetime.date(1981, 12, 3), datetime.date(2022, 3, 7), 'ANALYST', Decimal('3000.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 14:45:32,998:INFO:[Decimal('7934'), datetime.date(1982, 1, 23), datetime.date(2022, 3, 7), 'CLERK', Decimal('1300.00'), None, Decimal('10'), 'New Hire']
+2022-03-08 14:45:32,998:INFO:
+Question1
+2022-03-08 14:45:32,998:INFO:
+List of employee numbers, names and their managers are
+
+2022-03-08 14:45:33,000:INFO:Question 2
+2022-03-08 14:45:33,001:INFO:
+Total Compensation by Employee till date
+
+2022-03-08 14:45:33,087:INFO:
+Total Compensation Table Created
+
+2022-03-08 14:45:33,097:INFO:
+Total Compensation by Department till date
+
+2022-03-08 14:47:55,408:INFO:Connection Successful
+2022-03-08 14:47:55,408:INFO:
+Data in Employee table
+
+2022-03-08 14:47:55,410:INFO:[Decimal('7369'), 'SMITH', 'CLERK', Decimal('7902'), datetime.date(1980, 12, 17), Decimal('800.00'), None, Decimal('20')]
+2022-03-08 14:47:55,410:INFO:[Decimal('7499'), 'ALLEN', 'SALESMAN', Decimal('7698'), datetime.date(1981, 2, 20), Decimal('1600.00'), Decimal('300.00'), Decimal('30')]
+2022-03-08 14:47:55,410:INFO:[Decimal('7521'), 'WARD', 'SALESMAN', Decimal('7698'), datetime.date(1981, 2, 22), Decimal('1250.00'), Decimal('500.00'), Decimal('30')]
+2022-03-08 14:47:55,410:INFO:[Decimal('7566'), 'JONES', 'MANAGER', Decimal('7839'), datetime.date(1981, 4, 2), Decimal('2975.00'), None, Decimal('20')]
+2022-03-08 14:47:55,410:INFO:[Decimal('7654'), 'MARTIN', 'SALESMAN', Decimal('7698'), datetime.date(1981, 9, 28), Decimal('1250.00'), Decimal('1400.00'), Decimal('30')]
+2022-03-08 14:47:55,410:INFO:[Decimal('7698'), 'BLAKE', 'MANAGER', Decimal('7839'), datetime.date(1981, 5, 1), Decimal('2850.00'), None, Decimal('30')]
+2022-03-08 14:47:55,410:INFO:[Decimal('7782'), 'CLARK', 'MANAGER', Decimal('7839'), datetime.date(1981, 6, 9), Decimal('2450.00'), None, Decimal('10')]
+2022-03-08 14:47:55,410:INFO:[Decimal('7788'), 'SCOTT', 'ANALYST', Decimal('7566'), datetime.date(1987, 4, 19), Decimal('3000.00'), None, Decimal('20')]
+2022-03-08 14:47:55,410:INFO:[Decimal('7839'), 'KING', 'PRESIDENT', None, datetime.date(1981, 11, 17), Decimal('5000.00'), None, Decimal('10')]
+2022-03-08 14:47:55,410:INFO:[Decimal('7844'), 'TURNER', 'SALESMAN', Decimal('7698'), datetime.date(1981, 9, 8), Decimal('1500.00'), Decimal('0.00'), Decimal('30')]
+2022-03-08 14:47:55,410:INFO:[Decimal('7876'), 'ADAMS', 'CLERK', Decimal('7788'), datetime.date(1987, 5, 23), Decimal('1100.00'), None, Decimal('20')]
+2022-03-08 14:47:55,410:INFO:[Decimal('7900'), 'JAMES', 'CLERK', Decimal('7698'), datetime.date(1981, 12, 3), Decimal('950.00'), None, Decimal('30')]
+2022-03-08 14:47:55,410:INFO:[Decimal('7902'), 'FORD', 'ANALYST', Decimal('7566'), datetime.date(1981, 12, 3), Decimal('3000.00'), None, Decimal('20')]
+2022-03-08 14:47:55,410:INFO:[Decimal('7934'), 'MILLER', 'CLERK', Decimal('7782'), datetime.date(1982, 1, 23), Decimal('1300.00'), None, Decimal('10')]
+2022-03-08 14:47:55,410:INFO:
+Data in Department table
+
+2022-03-08 14:47:55,412:INFO:[Decimal('10'), 'ACCOUNTING', 'NEW YORK']
+2022-03-08 14:47:55,412:INFO:[Decimal('20'), 'RESEARCH', 'DALLAS']
+2022-03-08 14:47:55,412:INFO:[Decimal('30'), 'SALES', 'CHICAGO']
+2022-03-08 14:47:55,412:INFO:[Decimal('40'), 'OPERATIONS', 'BOSTON']
+2022-03-08 14:47:55,412:INFO:
+Data in Joblist Table
+
+2022-03-08 14:47:55,414:INFO:[Decimal('7788'), datetime.date(1987, 4, 19), datetime.date(1988, 4, 12), 'CLERK', Decimal('1000.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 14:47:55,414:INFO:[Decimal('7788'), datetime.date(1988, 4, 13), datetime.date(1989, 5, 4), 'CLERK', Decimal('1040.00'), None, Decimal('20'), 'Raise']
+2022-03-08 14:47:55,414:INFO:[Decimal('7900'), datetime.date(1981, 12, 3), datetime.date(1983, 1, 14), 'CLERK', Decimal('950.00'), None, Decimal('10'), 'New Hire']
+2022-03-08 14:47:55,414:INFO:[Decimal('7369'), datetime.date(1980, 12, 17), datetime.date(2022, 3, 7), 'CLERK', Decimal('800.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 14:47:55,414:INFO:[Decimal('7499'), datetime.date(1981, 2, 20), datetime.date(2022, 3, 7), 'SALESMAN', Decimal('1600.00'), Decimal('300.00'), Decimal('30'), 'New Hire']
+2022-03-08 14:47:55,414:INFO:[Decimal('7521'), datetime.date(1981, 2, 22), datetime.date(2022, 3, 7), 'SALESMAN', Decimal('1250.00'), Decimal('500.00'), Decimal('30'), 'New Hire']
+2022-03-08 14:47:55,414:INFO:[Decimal('7566'), datetime.date(1981, 4, 2), datetime.date(2022, 3, 7), 'MANAGER', Decimal('2975.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 14:47:55,414:INFO:[Decimal('7654'), datetime.date(1981, 9, 28), datetime.date(2022, 3, 7), 'SALESMAN', Decimal('1250.00'), Decimal('1400.00'), Decimal('30'), 'New Hire']
+2022-03-08 14:47:55,414:INFO:[Decimal('7698'), datetime.date(1981, 5, 1), datetime.date(2022, 3, 7), 'MANAGER', Decimal('2850.00'), None, Decimal('30'), 'New Hire']
+2022-03-08 14:47:55,414:INFO:[Decimal('7782'), datetime.date(1981, 6, 9), datetime.date(2022, 3, 7), 'MANAGER', Decimal('2450.00'), None, Decimal('10'), 'New Hire']
+2022-03-08 14:47:55,414:INFO:[Decimal('7788'), datetime.date(1990, 5, 5), datetime.date(2022, 3, 7), 'ANALYST', Decimal('3000.00'), None, Decimal('20'), 'Promoted to Analyst']
+2022-03-08 14:47:55,414:INFO:[Decimal('7839'), datetime.date(1981, 11, 17), datetime.date(2022, 3, 7), 'PRESIDENT', Decimal('5000.00'), None, Decimal('10'), 'New Hire']
+2022-03-08 14:47:55,414:INFO:[Decimal('7844'), datetime.date(1981, 9, 8), datetime.date(2022, 3, 7), 'SALESMAN', Decimal('1500.00'), Decimal('0.00'), Decimal('30'), 'New Hire']
+2022-03-08 14:47:55,414:INFO:[Decimal('7876'), datetime.date(1987, 5, 23), datetime.date(2022, 3, 7), 'CLERK', Decimal('1100.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 14:47:55,414:INFO:[Decimal('7900'), datetime.date(1983, 1, 15), datetime.date(2022, 3, 7), 'CLERK', Decimal('950.00'), None, Decimal('30'), 'Changed to Dept 30']
+2022-03-08 14:47:55,414:INFO:[Decimal('7902'), datetime.date(1981, 12, 3), datetime.date(2022, 3, 7), 'ANALYST', Decimal('3000.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 14:47:55,414:INFO:[Decimal('7934'), datetime.date(1982, 1, 23), datetime.date(2022, 3, 7), 'CLERK', Decimal('1300.00'), None, Decimal('10'), 'New Hire']
+2022-03-08 14:47:55,414:INFO:
+Question1
+2022-03-08 14:47:55,414:INFO:
+List of employee numbers, names and their managers are
+
+2022-03-08 14:47:55,414:ERROR:Error During Connection
+2022-03-08 14:51:39,407:INFO:Connection Successful
+2022-03-08 14:51:39,407:INFO:
+Data in Employee table
+
+2022-03-08 14:51:39,409:INFO:[Decimal('7369'), 'SMITH', 'CLERK', Decimal('7902'), datetime.date(1980, 12, 17), Decimal('800.00'), None, Decimal('20')]
+2022-03-08 14:51:39,409:INFO:[Decimal('7499'), 'ALLEN', 'SALESMAN', Decimal('7698'), datetime.date(1981, 2, 20), Decimal('1600.00'), Decimal('300.00'), Decimal('30')]
+2022-03-08 14:51:39,409:INFO:[Decimal('7521'), 'WARD', 'SALESMAN', Decimal('7698'), datetime.date(1981, 2, 22), Decimal('1250.00'), Decimal('500.00'), Decimal('30')]
+2022-03-08 14:51:39,409:INFO:[Decimal('7566'), 'JONES', 'MANAGER', Decimal('7839'), datetime.date(1981, 4, 2), Decimal('2975.00'), None, Decimal('20')]
+2022-03-08 14:51:39,409:INFO:[Decimal('7654'), 'MARTIN', 'SALESMAN', Decimal('7698'), datetime.date(1981, 9, 28), Decimal('1250.00'), Decimal('1400.00'), Decimal('30')]
+2022-03-08 14:51:39,409:INFO:[Decimal('7698'), 'BLAKE', 'MANAGER', Decimal('7839'), datetime.date(1981, 5, 1), Decimal('2850.00'), None, Decimal('30')]
+2022-03-08 14:51:39,409:INFO:[Decimal('7782'), 'CLARK', 'MANAGER', Decimal('7839'), datetime.date(1981, 6, 9), Decimal('2450.00'), None, Decimal('10')]
+2022-03-08 14:51:39,409:INFO:[Decimal('7788'), 'SCOTT', 'ANALYST', Decimal('7566'), datetime.date(1987, 4, 19), Decimal('3000.00'), None, Decimal('20')]
+2022-03-08 14:51:39,409:INFO:[Decimal('7839'), 'KING', 'PRESIDENT', None, datetime.date(1981, 11, 17), Decimal('5000.00'), None, Decimal('10')]
+2022-03-08 14:51:39,409:INFO:[Decimal('7844'), 'TURNER', 'SALESMAN', Decimal('7698'), datetime.date(1981, 9, 8), Decimal('1500.00'), Decimal('0.00'), Decimal('30')]
+2022-03-08 14:51:39,409:INFO:[Decimal('7876'), 'ADAMS', 'CLERK', Decimal('7788'), datetime.date(1987, 5, 23), Decimal('1100.00'), None, Decimal('20')]
+2022-03-08 14:51:39,409:INFO:[Decimal('7900'), 'JAMES', 'CLERK', Decimal('7698'), datetime.date(1981, 12, 3), Decimal('950.00'), None, Decimal('30')]
+2022-03-08 14:51:39,409:INFO:[Decimal('7902'), 'FORD', 'ANALYST', Decimal('7566'), datetime.date(1981, 12, 3), Decimal('3000.00'), None, Decimal('20')]
+2022-03-08 14:51:39,409:INFO:[Decimal('7934'), 'MILLER', 'CLERK', Decimal('7782'), datetime.date(1982, 1, 23), Decimal('1300.00'), None, Decimal('10')]
+2022-03-08 14:51:39,409:INFO:
+Data in Department table
+
+2022-03-08 14:51:39,411:INFO:[Decimal('10'), 'ACCOUNTING', 'NEW YORK']
+2022-03-08 14:51:39,411:INFO:[Decimal('20'), 'RESEARCH', 'DALLAS']
+2022-03-08 14:51:39,411:INFO:[Decimal('30'), 'SALES', 'CHICAGO']
+2022-03-08 14:51:39,411:INFO:[Decimal('40'), 'OPERATIONS', 'BOSTON']
+2022-03-08 14:51:39,411:INFO:
+Data in Joblist Table
+
+2022-03-08 14:51:39,413:INFO:[Decimal('7788'), datetime.date(1987, 4, 19), datetime.date(1988, 4, 12), 'CLERK', Decimal('1000.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 14:51:39,413:INFO:[Decimal('7788'), datetime.date(1988, 4, 13), datetime.date(1989, 5, 4), 'CLERK', Decimal('1040.00'), None, Decimal('20'), 'Raise']
+2022-03-08 14:51:39,413:INFO:[Decimal('7900'), datetime.date(1981, 12, 3), datetime.date(1983, 1, 14), 'CLERK', Decimal('950.00'), None, Decimal('10'), 'New Hire']
+2022-03-08 14:51:39,413:INFO:[Decimal('7369'), datetime.date(1980, 12, 17), datetime.date(2022, 3, 7), 'CLERK', Decimal('800.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 14:51:39,413:INFO:[Decimal('7499'), datetime.date(1981, 2, 20), datetime.date(2022, 3, 7), 'SALESMAN', Decimal('1600.00'), Decimal('300.00'), Decimal('30'), 'New Hire']
+2022-03-08 14:51:39,413:INFO:[Decimal('7521'), datetime.date(1981, 2, 22), datetime.date(2022, 3, 7), 'SALESMAN', Decimal('1250.00'), Decimal('500.00'), Decimal('30'), 'New Hire']
+2022-03-08 14:51:39,413:INFO:[Decimal('7566'), datetime.date(1981, 4, 2), datetime.date(2022, 3, 7), 'MANAGER', Decimal('2975.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 14:51:39,413:INFO:[Decimal('7654'), datetime.date(1981, 9, 28), datetime.date(2022, 3, 7), 'SALESMAN', Decimal('1250.00'), Decimal('1400.00'), Decimal('30'), 'New Hire']
+2022-03-08 14:51:39,413:INFO:[Decimal('7698'), datetime.date(1981, 5, 1), datetime.date(2022, 3, 7), 'MANAGER', Decimal('2850.00'), None, Decimal('30'), 'New Hire']
+2022-03-08 14:51:39,413:INFO:[Decimal('7782'), datetime.date(1981, 6, 9), datetime.date(2022, 3, 7), 'MANAGER', Decimal('2450.00'), None, Decimal('10'), 'New Hire']
+2022-03-08 14:51:39,413:INFO:[Decimal('7788'), datetime.date(1990, 5, 5), datetime.date(2022, 3, 7), 'ANALYST', Decimal('3000.00'), None, Decimal('20'), 'Promoted to Analyst']
+2022-03-08 14:51:39,413:INFO:[Decimal('7839'), datetime.date(1981, 11, 17), datetime.date(2022, 3, 7), 'PRESIDENT', Decimal('5000.00'), None, Decimal('10'), 'New Hire']
+2022-03-08 14:51:39,413:INFO:[Decimal('7844'), datetime.date(1981, 9, 8), datetime.date(2022, 3, 7), 'SALESMAN', Decimal('1500.00'), Decimal('0.00'), Decimal('30'), 'New Hire']
+2022-03-08 14:51:39,413:INFO:[Decimal('7876'), datetime.date(1987, 5, 23), datetime.date(2022, 3, 7), 'CLERK', Decimal('1100.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 14:51:39,413:INFO:[Decimal('7900'), datetime.date(1983, 1, 15), datetime.date(2022, 3, 7), 'CLERK', Decimal('950.00'), None, Decimal('30'), 'Changed to Dept 30']
+2022-03-08 14:51:39,413:INFO:[Decimal('7902'), datetime.date(1981, 12, 3), datetime.date(2022, 3, 7), 'ANALYST', Decimal('3000.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 14:51:39,413:INFO:[Decimal('7934'), datetime.date(1982, 1, 23), datetime.date(2022, 3, 7), 'CLERK', Decimal('1300.00'), None, Decimal('10'), 'New Hire']
+2022-03-08 14:51:39,413:INFO:
+Question1
+2022-03-08 14:51:39,413:INFO:
+List of employee numbers, names and their managers are
+
+2022-03-08 14:51:39,414:INFO:7902 FORD SMITH
+2022-03-08 14:51:39,414:INFO:7698 BLAKE ALLEN
+2022-03-08 14:51:39,414:INFO:7698 BLAKE WARD
+2022-03-08 14:51:39,414:INFO:7839 KING JONES
+2022-03-08 14:51:39,414:INFO:7698 BLAKE MARTIN
+2022-03-08 14:51:39,414:INFO:7839 KING BLAKE
+2022-03-08 14:51:39,414:INFO:7839 KING CLARK
+2022-03-08 14:51:39,414:INFO:7566 JONES SCOTT
+2022-03-08 14:51:39,414:INFO:7698 BLAKE TURNER
+2022-03-08 14:51:39,414:INFO:7788 SCOTT ADAMS
+2022-03-08 14:51:39,414:INFO:7698 BLAKE JAMES
+2022-03-08 14:51:39,414:INFO:7566 JONES FORD
+2022-03-08 14:51:39,414:INFO:7782 CLARK MILLER
+2022-03-08 14:51:39,414:INFO:Question 2
+2022-03-08 14:51:39,414:INFO:
+Total Compensation by Employee till date
+
+2022-03-08 14:51:39,415:ERROR:Error During Connection
+2022-03-08 14:56:40,826:INFO:Connection Successful
+2022-03-08 14:56:40,826:INFO:
+Data in Employee table
+
+2022-03-08 14:56:40,830:INFO:[Decimal('7369'), 'SMITH', 'CLERK', Decimal('7902'), datetime.date(1980, 12, 17), Decimal('800.00'), None, Decimal('20')]
+2022-03-08 14:56:40,830:INFO:[Decimal('7499'), 'ALLEN', 'SALESMAN', Decimal('7698'), datetime.date(1981, 2, 20), Decimal('1600.00'), Decimal('300.00'), Decimal('30')]
+2022-03-08 14:56:40,830:INFO:[Decimal('7521'), 'WARD', 'SALESMAN', Decimal('7698'), datetime.date(1981, 2, 22), Decimal('1250.00'), Decimal('500.00'), Decimal('30')]
+2022-03-08 14:56:40,830:INFO:[Decimal('7566'), 'JONES', 'MANAGER', Decimal('7839'), datetime.date(1981, 4, 2), Decimal('2975.00'), None, Decimal('20')]
+2022-03-08 14:56:40,830:INFO:[Decimal('7654'), 'MARTIN', 'SALESMAN', Decimal('7698'), datetime.date(1981, 9, 28), Decimal('1250.00'), Decimal('1400.00'), Decimal('30')]
+2022-03-08 14:56:40,830:INFO:[Decimal('7698'), 'BLAKE', 'MANAGER', Decimal('7839'), datetime.date(1981, 5, 1), Decimal('2850.00'), None, Decimal('30')]
+2022-03-08 14:56:40,830:INFO:[Decimal('7782'), 'CLARK', 'MANAGER', Decimal('7839'), datetime.date(1981, 6, 9), Decimal('2450.00'), None, Decimal('10')]
+2022-03-08 14:56:40,830:INFO:[Decimal('7788'), 'SCOTT', 'ANALYST', Decimal('7566'), datetime.date(1987, 4, 19), Decimal('3000.00'), None, Decimal('20')]
+2022-03-08 14:56:40,830:INFO:[Decimal('7839'), 'KING', 'PRESIDENT', None, datetime.date(1981, 11, 17), Decimal('5000.00'), None, Decimal('10')]
+2022-03-08 14:56:40,830:INFO:[Decimal('7844'), 'TURNER', 'SALESMAN', Decimal('7698'), datetime.date(1981, 9, 8), Decimal('1500.00'), Decimal('0.00'), Decimal('30')]
+2022-03-08 14:56:40,830:INFO:[Decimal('7876'), 'ADAMS', 'CLERK', Decimal('7788'), datetime.date(1987, 5, 23), Decimal('1100.00'), None, Decimal('20')]
+2022-03-08 14:56:40,830:INFO:[Decimal('7900'), 'JAMES', 'CLERK', Decimal('7698'), datetime.date(1981, 12, 3), Decimal('950.00'), None, Decimal('30')]
+2022-03-08 14:56:40,830:INFO:[Decimal('7902'), 'FORD', 'ANALYST', Decimal('7566'), datetime.date(1981, 12, 3), Decimal('3000.00'), None, Decimal('20')]
+2022-03-08 14:56:40,830:INFO:[Decimal('7934'), 'MILLER', 'CLERK', Decimal('7782'), datetime.date(1982, 1, 23), Decimal('1300.00'), None, Decimal('10')]
+2022-03-08 14:56:40,830:INFO:
+Data in Department table
+
+2022-03-08 14:56:40,834:INFO:[Decimal('10'), 'ACCOUNTING', 'NEW YORK']
+2022-03-08 14:56:40,835:INFO:[Decimal('20'), 'RESEARCH', 'DALLAS']
+2022-03-08 14:56:40,835:INFO:[Decimal('30'), 'SALES', 'CHICAGO']
+2022-03-08 14:56:40,835:INFO:[Decimal('40'), 'OPERATIONS', 'BOSTON']
+2022-03-08 14:56:40,835:INFO:
+Data in Joblist Table
+
+2022-03-08 14:56:40,838:INFO:[Decimal('7788'), datetime.date(1987, 4, 19), datetime.date(1988, 4, 12), 'CLERK', Decimal('1000.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 14:56:40,838:INFO:[Decimal('7788'), datetime.date(1988, 4, 13), datetime.date(1989, 5, 4), 'CLERK', Decimal('1040.00'), None, Decimal('20'), 'Raise']
+2022-03-08 14:56:40,838:INFO:[Decimal('7900'), datetime.date(1981, 12, 3), datetime.date(1983, 1, 14), 'CLERK', Decimal('950.00'), None, Decimal('10'), 'New Hire']
+2022-03-08 14:56:40,838:INFO:[Decimal('7369'), datetime.date(1980, 12, 17), datetime.date(2022, 3, 7), 'CLERK', Decimal('800.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 14:56:40,838:INFO:[Decimal('7499'), datetime.date(1981, 2, 20), datetime.date(2022, 3, 7), 'SALESMAN', Decimal('1600.00'), Decimal('300.00'), Decimal('30'), 'New Hire']
+2022-03-08 14:56:40,838:INFO:[Decimal('7521'), datetime.date(1981, 2, 22), datetime.date(2022, 3, 7), 'SALESMAN', Decimal('1250.00'), Decimal('500.00'), Decimal('30'), 'New Hire']
+2022-03-08 14:56:40,838:INFO:[Decimal('7566'), datetime.date(1981, 4, 2), datetime.date(2022, 3, 7), 'MANAGER', Decimal('2975.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 14:56:40,838:INFO:[Decimal('7654'), datetime.date(1981, 9, 28), datetime.date(2022, 3, 7), 'SALESMAN', Decimal('1250.00'), Decimal('1400.00'), Decimal('30'), 'New Hire']
+2022-03-08 14:56:40,838:INFO:[Decimal('7698'), datetime.date(1981, 5, 1), datetime.date(2022, 3, 7), 'MANAGER', Decimal('2850.00'), None, Decimal('30'), 'New Hire']
+2022-03-08 14:56:40,838:INFO:[Decimal('7782'), datetime.date(1981, 6, 9), datetime.date(2022, 3, 7), 'MANAGER', Decimal('2450.00'), None, Decimal('10'), 'New Hire']
+2022-03-08 14:56:40,838:INFO:[Decimal('7788'), datetime.date(1990, 5, 5), datetime.date(2022, 3, 7), 'ANALYST', Decimal('3000.00'), None, Decimal('20'), 'Promoted to Analyst']
+2022-03-08 14:56:40,838:INFO:[Decimal('7839'), datetime.date(1981, 11, 17), datetime.date(2022, 3, 7), 'PRESIDENT', Decimal('5000.00'), None, Decimal('10'), 'New Hire']
+2022-03-08 14:56:40,838:INFO:[Decimal('7844'), datetime.date(1981, 9, 8), datetime.date(2022, 3, 7), 'SALESMAN', Decimal('1500.00'), Decimal('0.00'), Decimal('30'), 'New Hire']
+2022-03-08 14:56:40,838:INFO:[Decimal('7876'), datetime.date(1987, 5, 23), datetime.date(2022, 3, 7), 'CLERK', Decimal('1100.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 14:56:40,838:INFO:[Decimal('7900'), datetime.date(1983, 1, 15), datetime.date(2022, 3, 7), 'CLERK', Decimal('950.00'), None, Decimal('30'), 'Changed to Dept 30']
+2022-03-08 14:56:40,838:INFO:[Decimal('7902'), datetime.date(1981, 12, 3), datetime.date(2022, 3, 7), 'ANALYST', Decimal('3000.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 14:56:40,838:INFO:[Decimal('7934'), datetime.date(1982, 1, 23), datetime.date(2022, 3, 7), 'CLERK', Decimal('1300.00'), None, Decimal('10'), 'New Hire']
+2022-03-08 14:56:40,838:INFO:
+Question1
+2022-03-08 14:56:40,838:INFO:
+List of employee numbers, names and their managers are
+
+2022-03-08 14:56:40,839:INFO:7902 FORD SMITH
+2022-03-08 14:56:40,839:INFO:7698 BLAKE ALLEN
+2022-03-08 14:56:40,839:INFO:7698 BLAKE WARD
+2022-03-08 14:56:40,839:INFO:7839 KING JONES
+2022-03-08 14:56:40,839:INFO:7698 BLAKE MARTIN
+2022-03-08 14:56:40,839:INFO:7839 KING BLAKE
+2022-03-08 14:56:40,839:INFO:7839 KING CLARK
+2022-03-08 14:56:40,839:INFO:7566 JONES SCOTT
+2022-03-08 14:56:40,839:INFO:7698 BLAKE TURNER
+2022-03-08 14:56:40,839:INFO:7788 SCOTT ADAMS
+2022-03-08 14:56:40,839:INFO:7698 BLAKE JAMES
+2022-03-08 14:56:40,839:INFO:7566 JONES FORD
+2022-03-08 14:56:40,839:INFO:7782 CLARK MILLER
+2022-03-08 14:56:40,839:INFO:Question 2
+2022-03-08 14:56:40,839:INFO:
+Total Compensation by Employee till date
+
+2022-03-08 14:56:40,840:INFO:7698 BLAKE SALES 1416450.0 10.0
+2022-03-08 14:56:40,840:INFO:7876 ADAMS RESEARCH 465300.0 9.0
+2022-03-08 14:56:40,840:INFO:7521 WARD SALES 623750.0 0.0
+2022-03-08 14:56:40,840:INFO:7654 MARTIN SALES 615000.0 5.0
+2022-03-08 14:56:40,840:INFO:7900 JAMES SALES 464550.0 2.0
+2022-03-08 14:56:40,840:INFO:7839 KING ACCOUNTING 2450000.0 3.0
+2022-03-08 14:56:40,840:INFO:7844 TURNER SALES 739500.0 5.0
+2022-03-08 14:56:40,840:INFO:7788 SCOTT RESEARCH 1184480.0 21.0
+2022-03-08 14:56:40,841:INFO:7369 SMITH RESEARCH 400800.0 2.0
+2022-03-08 14:56:40,841:INFO:7566 JONES RESEARCH 1481550.0 11.0
+2022-03-08 14:56:40,841:INFO:7902 FORD RESEARCH 1470000.0 3.0
+2022-03-08 14:56:40,841:INFO:7782 CLARK ACCOUNTING 1215200.0 8.0
+2022-03-08 14:56:40,841:INFO:7499 ALLEN SALES 798400.0 0.0
+2022-03-08 14:56:40,841:INFO:7934 MILLER ACCOUNTING 634400.0 1.0
+2022-03-08 14:56:40,930:INFO:
+Total Compensation Table Created
+
+2022-03-08 14:56:40,937:INFO:
+Total Compensation by Department till date
+
+2022-03-08 14:56:40,939:INFO:10 ACCOUNTING 73093200
+2022-03-08 14:56:40,939:INFO:30 SALES 79180050
+2022-03-08 14:56:40,939:INFO:20 RESEARCH 85036210
+2022-03-08 15:01:36,533:INFO:Connection Successful
+2022-03-08 15:01:36,533:INFO:
+Data in Employee table
+
+2022-03-08 15:01:36,535:INFO:[Decimal('7369'), 'SMITH', 'CLERK', Decimal('7902'), datetime.date(1980, 12, 17), Decimal('800.00'), None, Decimal('20')]
+2022-03-08 15:01:36,535:INFO:[Decimal('7499'), 'ALLEN', 'SALESMAN', Decimal('7698'), datetime.date(1981, 2, 20), Decimal('1600.00'), Decimal('300.00'), Decimal('30')]
+2022-03-08 15:01:36,535:INFO:[Decimal('7521'), 'WARD', 'SALESMAN', Decimal('7698'), datetime.date(1981, 2, 22), Decimal('1250.00'), Decimal('500.00'), Decimal('30')]
+2022-03-08 15:01:36,535:INFO:[Decimal('7566'), 'JONES', 'MANAGER', Decimal('7839'), datetime.date(1981, 4, 2), Decimal('2975.00'), None, Decimal('20')]
+2022-03-08 15:01:36,536:INFO:[Decimal('7654'), 'MARTIN', 'SALESMAN', Decimal('7698'), datetime.date(1981, 9, 28), Decimal('1250.00'), Decimal('1400.00'), Decimal('30')]
+2022-03-08 15:01:36,536:INFO:[Decimal('7698'), 'BLAKE', 'MANAGER', Decimal('7839'), datetime.date(1981, 5, 1), Decimal('2850.00'), None, Decimal('30')]
+2022-03-08 15:01:36,536:INFO:[Decimal('7782'), 'CLARK', 'MANAGER', Decimal('7839'), datetime.date(1981, 6, 9), Decimal('2450.00'), None, Decimal('10')]
+2022-03-08 15:01:36,536:INFO:[Decimal('7788'), 'SCOTT', 'ANALYST', Decimal('7566'), datetime.date(1987, 4, 19), Decimal('3000.00'), None, Decimal('20')]
+2022-03-08 15:01:36,536:INFO:[Decimal('7839'), 'KING', 'PRESIDENT', None, datetime.date(1981, 11, 17), Decimal('5000.00'), None, Decimal('10')]
+2022-03-08 15:01:36,536:INFO:[Decimal('7844'), 'TURNER', 'SALESMAN', Decimal('7698'), datetime.date(1981, 9, 8), Decimal('1500.00'), Decimal('0.00'), Decimal('30')]
+2022-03-08 15:01:36,536:INFO:[Decimal('7876'), 'ADAMS', 'CLERK', Decimal('7788'), datetime.date(1987, 5, 23), Decimal('1100.00'), None, Decimal('20')]
+2022-03-08 15:01:36,536:INFO:[Decimal('7900'), 'JAMES', 'CLERK', Decimal('7698'), datetime.date(1981, 12, 3), Decimal('950.00'), None, Decimal('30')]
+2022-03-08 15:01:36,536:INFO:[Decimal('7902'), 'FORD', 'ANALYST', Decimal('7566'), datetime.date(1981, 12, 3), Decimal('3000.00'), None, Decimal('20')]
+2022-03-08 15:01:36,536:INFO:[Decimal('7934'), 'MILLER', 'CLERK', Decimal('7782'), datetime.date(1982, 1, 23), Decimal('1300.00'), None, Decimal('10')]
+2022-03-08 15:01:36,536:INFO:
+Data in Department table
+
+2022-03-08 15:01:36,538:INFO:[Decimal('10'), 'ACCOUNTING', 'NEW YORK']
+2022-03-08 15:01:36,538:INFO:[Decimal('20'), 'RESEARCH', 'DALLAS']
+2022-03-08 15:01:36,538:INFO:[Decimal('30'), 'SALES', 'CHICAGO']
+2022-03-08 15:01:36,538:INFO:[Decimal('40'), 'OPERATIONS', 'BOSTON']
+2022-03-08 15:01:36,538:INFO:
+Data in Joblist Table
+
+2022-03-08 15:01:36,539:INFO:[Decimal('7788'), datetime.date(1987, 4, 19), datetime.date(1988, 4, 12), 'CLERK', Decimal('1000.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 15:01:36,539:INFO:[Decimal('7788'), datetime.date(1988, 4, 13), datetime.date(1989, 5, 4), 'CLERK', Decimal('1040.00'), None, Decimal('20'), 'Raise']
+2022-03-08 15:01:36,539:INFO:[Decimal('7900'), datetime.date(1981, 12, 3), datetime.date(1983, 1, 14), 'CLERK', Decimal('950.00'), None, Decimal('10'), 'New Hire']
+2022-03-08 15:01:36,539:INFO:[Decimal('7369'), datetime.date(1980, 12, 17), datetime.date(2022, 3, 7), 'CLERK', Decimal('800.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 15:01:36,539:INFO:[Decimal('7499'), datetime.date(1981, 2, 20), datetime.date(2022, 3, 7), 'SALESMAN', Decimal('1600.00'), Decimal('300.00'), Decimal('30'), 'New Hire']
+2022-03-08 15:01:36,539:INFO:[Decimal('7521'), datetime.date(1981, 2, 22), datetime.date(2022, 3, 7), 'SALESMAN', Decimal('1250.00'), Decimal('500.00'), Decimal('30'), 'New Hire']
+2022-03-08 15:01:36,539:INFO:[Decimal('7566'), datetime.date(1981, 4, 2), datetime.date(2022, 3, 7), 'MANAGER', Decimal('2975.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 15:01:36,539:INFO:[Decimal('7654'), datetime.date(1981, 9, 28), datetime.date(2022, 3, 7), 'SALESMAN', Decimal('1250.00'), Decimal('1400.00'), Decimal('30'), 'New Hire']
+2022-03-08 15:01:36,539:INFO:[Decimal('7698'), datetime.date(1981, 5, 1), datetime.date(2022, 3, 7), 'MANAGER', Decimal('2850.00'), None, Decimal('30'), 'New Hire']
+2022-03-08 15:01:36,539:INFO:[Decimal('7782'), datetime.date(1981, 6, 9), datetime.date(2022, 3, 7), 'MANAGER', Decimal('2450.00'), None, Decimal('10'), 'New Hire']
+2022-03-08 15:01:36,539:INFO:[Decimal('7788'), datetime.date(1990, 5, 5), datetime.date(2022, 3, 7), 'ANALYST', Decimal('3000.00'), None, Decimal('20'), 'Promoted to Analyst']
+2022-03-08 15:01:36,539:INFO:[Decimal('7839'), datetime.date(1981, 11, 17), datetime.date(2022, 3, 7), 'PRESIDENT', Decimal('5000.00'), None, Decimal('10'), 'New Hire']
+2022-03-08 15:01:36,539:INFO:[Decimal('7844'), datetime.date(1981, 9, 8), datetime.date(2022, 3, 7), 'SALESMAN', Decimal('1500.00'), Decimal('0.00'), Decimal('30'), 'New Hire']
+2022-03-08 15:01:36,539:INFO:[Decimal('7876'), datetime.date(1987, 5, 23), datetime.date(2022, 3, 7), 'CLERK', Decimal('1100.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 15:01:36,539:INFO:[Decimal('7900'), datetime.date(1983, 1, 15), datetime.date(2022, 3, 7), 'CLERK', Decimal('950.00'), None, Decimal('30'), 'Changed to Dept 30']
+2022-03-08 15:01:36,539:INFO:[Decimal('7902'), datetime.date(1981, 12, 3), datetime.date(2022, 3, 7), 'ANALYST', Decimal('3000.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 15:01:36,539:INFO:[Decimal('7934'), datetime.date(1982, 1, 23), datetime.date(2022, 3, 7), 'CLERK', Decimal('1300.00'), None, Decimal('10'), 'New Hire']
+2022-03-08 15:01:36,539:INFO:
+Question1
+2022-03-08 15:01:36,539:INFO:
+List of employee numbers, names and their managers are
+
+2022-03-08 15:01:36,540:INFO:empno ename mgr_name
+2022-03-08 15:01:36,540:INFO:7902 FORD SMITH
+2022-03-08 15:01:36,540:INFO:7698 BLAKE ALLEN
+2022-03-08 15:01:36,540:INFO:7698 BLAKE WARD
+2022-03-08 15:01:36,540:INFO:7839 KING JONES
+2022-03-08 15:01:36,540:INFO:7698 BLAKE MARTIN
+2022-03-08 15:01:36,540:INFO:7839 KING BLAKE
+2022-03-08 15:01:36,540:INFO:7839 KING CLARK
+2022-03-08 15:01:36,540:INFO:7566 JONES SCOTT
+2022-03-08 15:01:36,540:INFO:7698 BLAKE TURNER
+2022-03-08 15:01:36,540:INFO:7788 SCOTT ADAMS
+2022-03-08 15:01:36,540:INFO:7698 BLAKE JAMES
+2022-03-08 15:01:36,540:INFO:7566 JONES FORD
+2022-03-08 15:01:36,540:INFO:7782 CLARK MILLER
+2022-03-08 15:01:36,541:INFO:Question 2
+2022-03-08 15:01:36,541:INFO:
+Total Compensation by Employee till date
+
+2022-03-08 15:01:36,542:INFO:empno ename dname tot_comm month
+2022-03-08 15:01:36,542:INFO:7698 BLAKE SALES 1416450.0 10.0
+2022-03-08 15:01:36,542:INFO:7876 ADAMS RESEARCH 465300.0 9.0
+2022-03-08 15:01:36,542:INFO:7521 WARD SALES 623750.0 0.0
+2022-03-08 15:01:36,542:INFO:7654 MARTIN SALES 615000.0 5.0
+2022-03-08 15:01:36,542:INFO:7900 JAMES SALES 464550.0 2.0
+2022-03-08 15:01:36,542:INFO:7839 KING ACCOUNTING 2450000.0 3.0
+2022-03-08 15:01:36,542:INFO:7844 TURNER SALES 739500.0 5.0
+2022-03-08 15:01:36,542:INFO:7788 SCOTT RESEARCH 1184480.0 21.0
+2022-03-08 15:01:36,542:INFO:7369 SMITH RESEARCH 400800.0 2.0
+2022-03-08 15:01:36,542:INFO:7566 JONES RESEARCH 1481550.0 11.0
+2022-03-08 15:01:36,542:INFO:7902 FORD RESEARCH 1470000.0 3.0
+2022-03-08 15:01:36,542:INFO:7782 CLARK ACCOUNTING 1215200.0 8.0
+2022-03-08 15:01:36,542:INFO:7499 ALLEN SALES 798400.0 0.0
+2022-03-08 15:01:36,542:INFO:7934 MILLER ACCOUNTING 634400.0 1.0
+2022-03-08 15:01:36,609:INFO:
+Total Compensation Table Created
+
+2022-03-08 15:01:36,615:INFO:
+Total Compensation by Department till date
+
+2022-03-08 15:01:36,617:INFO:deptno dname compensation
+2022-03-08 15:01:36,617:INFO:10 ACCOUNTING 77392800
+2022-03-08 15:01:36,617:INFO:30 SALES 83837700
+2022-03-08 15:01:36,617:INFO:20 RESEARCH 90038340
+2022-03-08 16:00:32,742:INFO:Connection Successful
+2022-03-08 16:00:32,742:INFO:
+Question1
+2022-03-08 16:00:32,742:INFO:
+List of employee numbers, names and their managers are
+
+2022-03-08 16:00:32,750:INFO:empno ename mgr_name
+2022-03-08 16:00:32,750:INFO:7902 FORD SMITH
+2022-03-08 16:00:32,750:INFO:7698 BLAKE ALLEN
+2022-03-08 16:00:32,750:INFO:7698 BLAKE WARD
+2022-03-08 16:00:32,750:INFO:7839 KING JONES
+2022-03-08 16:00:32,750:INFO:7698 BLAKE MARTIN
+2022-03-08 16:00:32,750:INFO:7839 KING BLAKE
+2022-03-08 16:00:32,750:INFO:7839 KING CLARK
+2022-03-08 16:00:32,750:INFO:7566 JONES SCOTT
+2022-03-08 16:00:32,751:INFO:7698 BLAKE TURNER
+2022-03-08 16:00:32,751:INFO:7788 SCOTT ADAMS
+2022-03-08 16:00:32,751:INFO:7698 BLAKE JAMES
+2022-03-08 16:00:32,751:INFO:7566 JONES FORD
+2022-03-08 16:00:32,751:INFO:7782 CLARK MILLER
+2022-03-08 16:00:42,577:INFO:Connection Successful
+2022-03-08 16:00:42,578:INFO:Question 2
+2022-03-08 16:00:42,578:INFO:
+Total Compensation by Employee till date
+
+2022-03-08 16:00:42,589:INFO:empno ename dname tot_comm month
+2022-03-08 16:00:42,589:INFO:7698 BLAKE SALES 1416450.0 10.0
+2022-03-08 16:00:42,589:INFO:7876 ADAMS RESEARCH 465300.0 9.0
+2022-03-08 16:00:42,589:INFO:7521 WARD SALES 623750.0 0.0
+2022-03-08 16:00:42,589:INFO:7654 MARTIN SALES 615000.0 5.0
+2022-03-08 16:00:42,589:INFO:7900 JAMES SALES 464550.0 2.0
+2022-03-08 16:00:42,589:INFO:7839 KING ACCOUNTING 2450000.0 3.0
+2022-03-08 16:00:42,589:INFO:7844 TURNER SALES 739500.0 5.0
+2022-03-08 16:00:42,589:INFO:7788 SCOTT RESEARCH 1184480.0 21.0
+2022-03-08 16:00:42,589:INFO:7369 SMITH RESEARCH 400800.0 2.0
+2022-03-08 16:00:42,589:INFO:7566 JONES RESEARCH 1481550.0 11.0
+2022-03-08 16:00:42,589:INFO:7902 FORD RESEARCH 1470000.0 3.0
+2022-03-08 16:00:42,589:INFO:7782 CLARK ACCOUNTING 1215200.0 8.0
+2022-03-08 16:00:42,590:INFO:7499 ALLEN SALES 798400.0 0.0
+2022-03-08 16:00:42,590:INFO:7934 MILLER ACCOUNTING 634400.0 1.0
+2022-03-08 16:00:59,387:INFO:Connection Successful
+2022-03-08 16:00:59,387:INFO:Question 2
+2022-03-08 16:00:59,387:INFO:
+Total Compensation by Employee till date
+
+2022-03-08 16:00:59,394:INFO:empno ename dname tot_comm month
+2022-03-08 16:00:59,394:INFO:7698 BLAKE SALES 1416450.0 10.0
+2022-03-08 16:00:59,394:INFO:7876 ADAMS RESEARCH 465300.0 9.0
+2022-03-08 16:00:59,394:INFO:7521 WARD SALES 623750.0 0.0
+2022-03-08 16:00:59,394:INFO:7654 MARTIN SALES 615000.0 5.0
+2022-03-08 16:00:59,394:INFO:7900 JAMES SALES 464550.0 2.0
+2022-03-08 16:00:59,394:INFO:7839 KING ACCOUNTING 2450000.0 3.0
+2022-03-08 16:00:59,394:INFO:7844 TURNER SALES 739500.0 5.0
+2022-03-08 16:00:59,394:INFO:7788 SCOTT RESEARCH 1184480.0 21.0
+2022-03-08 16:00:59,394:INFO:7369 SMITH RESEARCH 400800.0 2.0
+2022-03-08 16:00:59,394:INFO:7566 JONES RESEARCH 1481550.0 11.0
+2022-03-08 16:00:59,394:INFO:7902 FORD RESEARCH 1470000.0 3.0
+2022-03-08 16:00:59,394:INFO:7782 CLARK ACCOUNTING 1215200.0 8.0
+2022-03-08 16:00:59,394:INFO:7499 ALLEN SALES 798400.0 0.0
+2022-03-08 16:00:59,394:INFO:7934 MILLER ACCOUNTING 634400.0 1.0
+2022-03-08 16:01:10,930:INFO:Connection Successful
+2022-03-08 16:01:11,023:INFO:
+Total Compensation Table Created
+
+2022-03-08 16:01:30,016:INFO:Connection Successful
+2022-03-08 16:01:30,016:INFO:
+Total Compensation by Department till date
+
+2022-03-08 16:01:30,021:INFO:deptno dname compensation
+2022-03-08 16:01:30,021:INFO:20 RESEARCH 95040470
+2022-03-08 16:01:30,021:INFO:10 ACCOUNTING 81692400
+2022-03-08 16:01:30,021:INFO:30 SALES 88495350
+2022-03-08 16:02:33,471:INFO:Connection Successful
+2022-03-08 16:02:33,471:INFO:
+Total Compensation by Department till date
+
+2022-03-08 16:02:33,476:INFO:deptno dname compensation
+2022-03-08 16:02:33,476:INFO:20 RESEARCH 95040470
+2022-03-08 16:02:33,476:INFO:10 ACCOUNTING 81692400
+2022-03-08 16:02:33,476:INFO:30 SALES 88495350
+2022-03-08 16:02:48,633:INFO:Connection Successful
+2022-03-08 16:02:48,633:INFO:
+Data in Employee table
+
+2022-03-08 16:02:48,636:INFO:[Decimal('7369'), 'SMITH', 'CLERK', Decimal('7902'), datetime.date(1980, 12, 17), Decimal('800.00'), None, Decimal('20')]
+2022-03-08 16:02:48,636:INFO:[Decimal('7499'), 'ALLEN', 'SALESMAN', Decimal('7698'), datetime.date(1981, 2, 20), Decimal('1600.00'), Decimal('300.00'), Decimal('30')]
+2022-03-08 16:02:48,636:INFO:[Decimal('7521'), 'WARD', 'SALESMAN', Decimal('7698'), datetime.date(1981, 2, 22), Decimal('1250.00'), Decimal('500.00'), Decimal('30')]
+2022-03-08 16:02:48,636:INFO:[Decimal('7566'), 'JONES', 'MANAGER', Decimal('7839'), datetime.date(1981, 4, 2), Decimal('2975.00'), None, Decimal('20')]
+2022-03-08 16:02:48,636:INFO:[Decimal('7654'), 'MARTIN', 'SALESMAN', Decimal('7698'), datetime.date(1981, 9, 28), Decimal('1250.00'), Decimal('1400.00'), Decimal('30')]
+2022-03-08 16:02:48,636:INFO:[Decimal('7698'), 'BLAKE', 'MANAGER', Decimal('7839'), datetime.date(1981, 5, 1), Decimal('2850.00'), None, Decimal('30')]
+2022-03-08 16:02:48,636:INFO:[Decimal('7782'), 'CLARK', 'MANAGER', Decimal('7839'), datetime.date(1981, 6, 9), Decimal('2450.00'), None, Decimal('10')]
+2022-03-08 16:02:48,636:INFO:[Decimal('7788'), 'SCOTT', 'ANALYST', Decimal('7566'), datetime.date(1987, 4, 19), Decimal('3000.00'), None, Decimal('20')]
+2022-03-08 16:02:48,636:INFO:[Decimal('7839'), 'KING', 'PRESIDENT', None, datetime.date(1981, 11, 17), Decimal('5000.00'), None, Decimal('10')]
+2022-03-08 16:02:48,636:INFO:[Decimal('7844'), 'TURNER', 'SALESMAN', Decimal('7698'), datetime.date(1981, 9, 8), Decimal('1500.00'), Decimal('0.00'), Decimal('30')]
+2022-03-08 16:02:48,636:INFO:[Decimal('7876'), 'ADAMS', 'CLERK', Decimal('7788'), datetime.date(1987, 5, 23), Decimal('1100.00'), None, Decimal('20')]
+2022-03-08 16:02:48,636:INFO:[Decimal('7900'), 'JAMES', 'CLERK', Decimal('7698'), datetime.date(1981, 12, 3), Decimal('950.00'), None, Decimal('30')]
+2022-03-08 16:02:48,636:INFO:[Decimal('7902'), 'FORD', 'ANALYST', Decimal('7566'), datetime.date(1981, 12, 3), Decimal('3000.00'), None, Decimal('20')]
+2022-03-08 16:02:48,636:INFO:[Decimal('7934'), 'MILLER', 'CLERK', Decimal('7782'), datetime.date(1982, 1, 23), Decimal('1300.00'), None, Decimal('10')]
+2022-03-08 16:02:48,636:INFO:
+Data in Department table
+
+2022-03-08 16:02:48,639:INFO:[Decimal('10'), 'ACCOUNTING', 'NEW YORK']
+2022-03-08 16:02:48,639:INFO:[Decimal('20'), 'RESEARCH', 'DALLAS']
+2022-03-08 16:02:48,639:INFO:[Decimal('30'), 'SALES', 'CHICAGO']
+2022-03-08 16:02:48,639:INFO:[Decimal('40'), 'OPERATIONS', 'BOSTON']
+2022-03-08 16:02:48,639:INFO:
+Data in Joblist Table
+
+2022-03-08 16:02:48,641:INFO:[Decimal('7788'), datetime.date(1987, 4, 19), datetime.date(1988, 4, 12), 'CLERK', Decimal('1000.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 16:02:48,641:INFO:[Decimal('7788'), datetime.date(1988, 4, 13), datetime.date(1989, 5, 4), 'CLERK', Decimal('1040.00'), None, Decimal('20'), 'Raise']
+2022-03-08 16:02:48,641:INFO:[Decimal('7900'), datetime.date(1981, 12, 3), datetime.date(1983, 1, 14), 'CLERK', Decimal('950.00'), None, Decimal('10'), 'New Hire']
+2022-03-08 16:02:48,641:INFO:[Decimal('7369'), datetime.date(1980, 12, 17), datetime.date(2022, 3, 7), 'CLERK', Decimal('800.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 16:02:48,641:INFO:[Decimal('7499'), datetime.date(1981, 2, 20), datetime.date(2022, 3, 7), 'SALESMAN', Decimal('1600.00'), Decimal('300.00'), Decimal('30'), 'New Hire']
+2022-03-08 16:02:48,641:INFO:[Decimal('7521'), datetime.date(1981, 2, 22), datetime.date(2022, 3, 7), 'SALESMAN', Decimal('1250.00'), Decimal('500.00'), Decimal('30'), 'New Hire']
+2022-03-08 16:02:48,641:INFO:[Decimal('7566'), datetime.date(1981, 4, 2), datetime.date(2022, 3, 7), 'MANAGER', Decimal('2975.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 16:02:48,641:INFO:[Decimal('7654'), datetime.date(1981, 9, 28), datetime.date(2022, 3, 7), 'SALESMAN', Decimal('1250.00'), Decimal('1400.00'), Decimal('30'), 'New Hire']
+2022-03-08 16:02:48,641:INFO:[Decimal('7698'), datetime.date(1981, 5, 1), datetime.date(2022, 3, 7), 'MANAGER', Decimal('2850.00'), None, Decimal('30'), 'New Hire']
+2022-03-08 16:02:48,641:INFO:[Decimal('7782'), datetime.date(1981, 6, 9), datetime.date(2022, 3, 7), 'MANAGER', Decimal('2450.00'), None, Decimal('10'), 'New Hire']
+2022-03-08 16:02:48,641:INFO:[Decimal('7788'), datetime.date(1990, 5, 5), datetime.date(2022, 3, 7), 'ANALYST', Decimal('3000.00'), None, Decimal('20'), 'Promoted to Analyst']
+2022-03-08 16:02:48,641:INFO:[Decimal('7839'), datetime.date(1981, 11, 17), datetime.date(2022, 3, 7), 'PRESIDENT', Decimal('5000.00'), None, Decimal('10'), 'New Hire']
+2022-03-08 16:02:48,641:INFO:[Decimal('7844'), datetime.date(1981, 9, 8), datetime.date(2022, 3, 7), 'SALESMAN', Decimal('1500.00'), Decimal('0.00'), Decimal('30'), 'New Hire']
+2022-03-08 16:02:48,641:INFO:[Decimal('7876'), datetime.date(1987, 5, 23), datetime.date(2022, 3, 7), 'CLERK', Decimal('1100.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 16:02:48,641:INFO:[Decimal('7900'), datetime.date(1983, 1, 15), datetime.date(2022, 3, 7), 'CLERK', Decimal('950.00'), None, Decimal('30'), 'Changed to Dept 30']
+2022-03-08 16:02:48,641:INFO:[Decimal('7902'), datetime.date(1981, 12, 3), datetime.date(2022, 3, 7), 'ANALYST', Decimal('3000.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 16:02:48,641:INFO:[Decimal('7934'), datetime.date(1982, 1, 23), datetime.date(2022, 3, 7), 'CLERK', Decimal('1300.00'), None, Decimal('10'), 'New Hire']
+2022-03-08 16:17:29,024:INFO:Connection Successful
+2022-03-08 16:17:29,024:INFO:
+Data in Employee table
+
+2022-03-08 16:17:29,026:INFO:[Decimal('7369'), 'SMITH', 'CLERK', Decimal('7902'), datetime.date(1980, 12, 17), Decimal('800.00'), None, Decimal('20')]
+2022-03-08 16:17:29,027:INFO:[Decimal('7499'), 'ALLEN', 'SALESMAN', Decimal('7698'), datetime.date(1981, 2, 20), Decimal('1600.00'), Decimal('300.00'), Decimal('30')]
+2022-03-08 16:17:29,027:INFO:[Decimal('7521'), 'WARD', 'SALESMAN', Decimal('7698'), datetime.date(1981, 2, 22), Decimal('1250.00'), Decimal('500.00'), Decimal('30')]
+2022-03-08 16:17:29,027:INFO:[Decimal('7566'), 'JONES', 'MANAGER', Decimal('7839'), datetime.date(1981, 4, 2), Decimal('2975.00'), None, Decimal('20')]
+2022-03-08 16:17:29,027:INFO:[Decimal('7654'), 'MARTIN', 'SALESMAN', Decimal('7698'), datetime.date(1981, 9, 28), Decimal('1250.00'), Decimal('1400.00'), Decimal('30')]
+2022-03-08 16:17:29,027:INFO:[Decimal('7698'), 'BLAKE', 'MANAGER', Decimal('7839'), datetime.date(1981, 5, 1), Decimal('2850.00'), None, Decimal('30')]
+2022-03-08 16:17:29,027:INFO:[Decimal('7782'), 'CLARK', 'MANAGER', Decimal('7839'), datetime.date(1981, 6, 9), Decimal('2450.00'), None, Decimal('10')]
+2022-03-08 16:17:29,027:INFO:[Decimal('7788'), 'SCOTT', 'ANALYST', Decimal('7566'), datetime.date(1987, 4, 19), Decimal('3000.00'), None, Decimal('20')]
+2022-03-08 16:17:29,027:INFO:[Decimal('7839'), 'KING', 'PRESIDENT', None, datetime.date(1981, 11, 17), Decimal('5000.00'), None, Decimal('10')]
+2022-03-08 16:17:29,027:INFO:[Decimal('7844'), 'TURNER', 'SALESMAN', Decimal('7698'), datetime.date(1981, 9, 8), Decimal('1500.00'), Decimal('0.00'), Decimal('30')]
+2022-03-08 16:17:29,027:INFO:[Decimal('7876'), 'ADAMS', 'CLERK', Decimal('7788'), datetime.date(1987, 5, 23), Decimal('1100.00'), None, Decimal('20')]
+2022-03-08 16:17:29,027:INFO:[Decimal('7900'), 'JAMES', 'CLERK', Decimal('7698'), datetime.date(1981, 12, 3), Decimal('950.00'), None, Decimal('30')]
+2022-03-08 16:17:29,027:INFO:[Decimal('7902'), 'FORD', 'ANALYST', Decimal('7566'), datetime.date(1981, 12, 3), Decimal('3000.00'), None, Decimal('20')]
+2022-03-08 16:17:29,027:INFO:[Decimal('7934'), 'MILLER', 'CLERK', Decimal('7782'), datetime.date(1982, 1, 23), Decimal('1300.00'), None, Decimal('10')]
+2022-03-08 16:17:29,027:INFO:
+Data in Department table
+
+2022-03-08 16:17:29,029:INFO:[Decimal('10'), 'ACCOUNTING', 'NEW YORK']
+2022-03-08 16:17:29,029:INFO:[Decimal('20'), 'RESEARCH', 'DALLAS']
+2022-03-08 16:17:29,029:INFO:[Decimal('30'), 'SALES', 'CHICAGO']
+2022-03-08 16:17:29,029:INFO:[Decimal('40'), 'OPERATIONS', 'BOSTON']
+2022-03-08 16:17:29,029:INFO:
+Data in Jobhist Table
+
+2022-03-08 16:17:29,031:INFO:[Decimal('7788'), datetime.date(1987, 4, 19), datetime.date(1988, 4, 12), 'CLERK', Decimal('1000.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 16:17:29,031:INFO:[Decimal('7788'), datetime.date(1988, 4, 13), datetime.date(1989, 5, 4), 'CLERK', Decimal('1040.00'), None, Decimal('20'), 'Raise']
+2022-03-08 16:17:29,031:INFO:[Decimal('7900'), datetime.date(1981, 12, 3), datetime.date(1983, 1, 14), 'CLERK', Decimal('950.00'), None, Decimal('10'), 'New Hire']
+2022-03-08 16:17:29,031:INFO:[Decimal('7369'), datetime.date(1980, 12, 17), datetime.date(2022, 3, 7), 'CLERK', Decimal('800.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 16:17:29,031:INFO:[Decimal('7499'), datetime.date(1981, 2, 20), datetime.date(2022, 3, 7), 'SALESMAN', Decimal('1600.00'), Decimal('300.00'), Decimal('30'), 'New Hire']
+2022-03-08 16:17:29,031:INFO:[Decimal('7521'), datetime.date(1981, 2, 22), datetime.date(2022, 3, 7), 'SALESMAN', Decimal('1250.00'), Decimal('500.00'), Decimal('30'), 'New Hire']
+2022-03-08 16:17:29,031:INFO:[Decimal('7566'), datetime.date(1981, 4, 2), datetime.date(2022, 3, 7), 'MANAGER', Decimal('2975.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 16:17:29,031:INFO:[Decimal('7654'), datetime.date(1981, 9, 28), datetime.date(2022, 3, 7), 'SALESMAN', Decimal('1250.00'), Decimal('1400.00'), Decimal('30'), 'New Hire']
+2022-03-08 16:17:29,031:INFO:[Decimal('7698'), datetime.date(1981, 5, 1), datetime.date(2022, 3, 7), 'MANAGER', Decimal('2850.00'), None, Decimal('30'), 'New Hire']
+2022-03-08 16:17:29,031:INFO:[Decimal('7782'), datetime.date(1981, 6, 9), datetime.date(2022, 3, 7), 'MANAGER', Decimal('2450.00'), None, Decimal('10'), 'New Hire']
+2022-03-08 16:17:29,031:INFO:[Decimal('7788'), datetime.date(1990, 5, 5), datetime.date(2022, 3, 7), 'ANALYST', Decimal('3000.00'), None, Decimal('20'), 'Promoted to Analyst']
+2022-03-08 16:17:29,031:INFO:[Decimal('7839'), datetime.date(1981, 11, 17), datetime.date(2022, 3, 7), 'PRESIDENT', Decimal('5000.00'), None, Decimal('10'), 'New Hire']
+2022-03-08 16:17:29,032:INFO:[Decimal('7844'), datetime.date(1981, 9, 8), datetime.date(2022, 3, 7), 'SALESMAN', Decimal('1500.00'), Decimal('0.00'), Decimal('30'), 'New Hire']
+2022-03-08 16:17:29,032:INFO:[Decimal('7876'), datetime.date(1987, 5, 23), datetime.date(2022, 3, 7), 'CLERK', Decimal('1100.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 16:17:29,032:INFO:[Decimal('7900'), datetime.date(1983, 1, 15), datetime.date(2022, 3, 7), 'CLERK', Decimal('950.00'), None, Decimal('30'), 'Changed to Dept 30']
+2022-03-08 16:17:29,032:INFO:[Decimal('7902'), datetime.date(1981, 12, 3), datetime.date(2022, 3, 7), 'ANALYST', Decimal('3000.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 16:17:29,032:INFO:[Decimal('7934'), datetime.date(1982, 1, 23), datetime.date(2022, 3, 7), 'CLERK', Decimal('1300.00'), None, Decimal('10'), 'New Hire']
+2022-03-08 16:26:04,315:INFO:Connection Successful
+2022-03-08 16:26:04,316:INFO:
+Data in Employee table
+
+2022-03-08 16:26:04,318:INFO:[Decimal('7369'), 'SMITH', 'CLERK', Decimal('7902'), datetime.date(1980, 12, 17), Decimal('800.00'), None, Decimal('20')]
+2022-03-08 16:26:04,318:INFO:[Decimal('7499'), 'ALLEN', 'SALESMAN', Decimal('7698'), datetime.date(1981, 2, 20), Decimal('1600.00'), Decimal('300.00'), Decimal('30')]
+2022-03-08 16:26:04,318:INFO:[Decimal('7521'), 'WARD', 'SALESMAN', Decimal('7698'), datetime.date(1981, 2, 22), Decimal('1250.00'), Decimal('500.00'), Decimal('30')]
+2022-03-08 16:26:04,318:INFO:[Decimal('7566'), 'JONES', 'MANAGER', Decimal('7839'), datetime.date(1981, 4, 2), Decimal('2975.00'), None, Decimal('20')]
+2022-03-08 16:26:04,318:INFO:[Decimal('7654'), 'MARTIN', 'SALESMAN', Decimal('7698'), datetime.date(1981, 9, 28), Decimal('1250.00'), Decimal('1400.00'), Decimal('30')]
+2022-03-08 16:26:04,318:INFO:[Decimal('7698'), 'BLAKE', 'MANAGER', Decimal('7839'), datetime.date(1981, 5, 1), Decimal('2850.00'), None, Decimal('30')]
+2022-03-08 16:26:04,318:INFO:[Decimal('7782'), 'CLARK', 'MANAGER', Decimal('7839'), datetime.date(1981, 6, 9), Decimal('2450.00'), None, Decimal('10')]
+2022-03-08 16:26:04,318:INFO:[Decimal('7788'), 'SCOTT', 'ANALYST', Decimal('7566'), datetime.date(1987, 4, 19), Decimal('3000.00'), None, Decimal('20')]
+2022-03-08 16:26:04,318:INFO:[Decimal('7839'), 'KING', 'PRESIDENT', None, datetime.date(1981, 11, 17), Decimal('5000.00'), None, Decimal('10')]
+2022-03-08 16:26:04,318:INFO:[Decimal('7844'), 'TURNER', 'SALESMAN', Decimal('7698'), datetime.date(1981, 9, 8), Decimal('1500.00'), Decimal('0.00'), Decimal('30')]
+2022-03-08 16:26:04,318:INFO:[Decimal('7876'), 'ADAMS', 'CLERK', Decimal('7788'), datetime.date(1987, 5, 23), Decimal('1100.00'), None, Decimal('20')]
+2022-03-08 16:26:04,318:INFO:[Decimal('7900'), 'JAMES', 'CLERK', Decimal('7698'), datetime.date(1981, 12, 3), Decimal('950.00'), None, Decimal('30')]
+2022-03-08 16:26:04,318:INFO:[Decimal('7902'), 'FORD', 'ANALYST', Decimal('7566'), datetime.date(1981, 12, 3), Decimal('3000.00'), None, Decimal('20')]
+2022-03-08 16:26:04,318:INFO:[Decimal('7934'), 'MILLER', 'CLERK', Decimal('7782'), datetime.date(1982, 1, 23), Decimal('1300.00'), None, Decimal('10')]
+2022-03-08 16:26:04,318:INFO:
+Data in Department table
+
+2022-03-08 16:26:04,320:INFO:[Decimal('10'), 'ACCOUNTING', 'NEW YORK']
+2022-03-08 16:26:04,320:INFO:[Decimal('20'), 'RESEARCH', 'DALLAS']
+2022-03-08 16:26:04,320:INFO:[Decimal('30'), 'SALES', 'CHICAGO']
+2022-03-08 16:26:04,320:INFO:[Decimal('40'), 'OPERATIONS', 'BOSTON']
+2022-03-08 16:26:04,320:INFO:
+Data in Jobhist Table
+
+2022-03-08 16:26:04,322:INFO:[Decimal('7788'), datetime.date(1987, 4, 19), datetime.date(1988, 4, 12), 'CLERK', Decimal('1000.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 16:26:04,322:INFO:[Decimal('7788'), datetime.date(1988, 4, 13), datetime.date(1989, 5, 4), 'CLERK', Decimal('1040.00'), None, Decimal('20'), 'Raise']
+2022-03-08 16:26:04,322:INFO:[Decimal('7900'), datetime.date(1981, 12, 3), datetime.date(1983, 1, 14), 'CLERK', Decimal('950.00'), None, Decimal('10'), 'New Hire']
+2022-03-08 16:26:04,322:INFO:[Decimal('7369'), datetime.date(1980, 12, 17), datetime.date(2022, 3, 7), 'CLERK', Decimal('800.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 16:26:04,322:INFO:[Decimal('7499'), datetime.date(1981, 2, 20), datetime.date(2022, 3, 7), 'SALESMAN', Decimal('1600.00'), Decimal('300.00'), Decimal('30'), 'New Hire']
+2022-03-08 16:26:04,322:INFO:[Decimal('7521'), datetime.date(1981, 2, 22), datetime.date(2022, 3, 7), 'SALESMAN', Decimal('1250.00'), Decimal('500.00'), Decimal('30'), 'New Hire']
+2022-03-08 16:26:04,322:INFO:[Decimal('7566'), datetime.date(1981, 4, 2), datetime.date(2022, 3, 7), 'MANAGER', Decimal('2975.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 16:26:04,322:INFO:[Decimal('7654'), datetime.date(1981, 9, 28), datetime.date(2022, 3, 7), 'SALESMAN', Decimal('1250.00'), Decimal('1400.00'), Decimal('30'), 'New Hire']
+2022-03-08 16:26:04,322:INFO:[Decimal('7698'), datetime.date(1981, 5, 1), datetime.date(2022, 3, 7), 'MANAGER', Decimal('2850.00'), None, Decimal('30'), 'New Hire']
+2022-03-08 16:26:04,322:INFO:[Decimal('7782'), datetime.date(1981, 6, 9), datetime.date(2022, 3, 7), 'MANAGER', Decimal('2450.00'), None, Decimal('10'), 'New Hire']
+2022-03-08 16:26:04,322:INFO:[Decimal('7788'), datetime.date(1990, 5, 5), datetime.date(2022, 3, 7), 'ANALYST', Decimal('3000.00'), None, Decimal('20'), 'Promoted to Analyst']
+2022-03-08 16:26:04,322:INFO:[Decimal('7839'), datetime.date(1981, 11, 17), datetime.date(2022, 3, 7), 'PRESIDENT', Decimal('5000.00'), None, Decimal('10'), 'New Hire']
+2022-03-08 16:26:04,322:INFO:[Decimal('7844'), datetime.date(1981, 9, 8), datetime.date(2022, 3, 7), 'SALESMAN', Decimal('1500.00'), Decimal('0.00'), Decimal('30'), 'New Hire']
+2022-03-08 16:26:04,322:INFO:[Decimal('7876'), datetime.date(1987, 5, 23), datetime.date(2022, 3, 7), 'CLERK', Decimal('1100.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 16:26:04,322:INFO:[Decimal('7900'), datetime.date(1983, 1, 15), datetime.date(2022, 3, 7), 'CLERK', Decimal('950.00'), None, Decimal('30'), 'Changed to Dept 30']
+2022-03-08 16:26:04,322:INFO:[Decimal('7902'), datetime.date(1981, 12, 3), datetime.date(2022, 3, 7), 'ANALYST', Decimal('3000.00'), None, Decimal('20'), 'New Hire']
+2022-03-08 16:26:04,322:INFO:[Decimal('7934'), datetime.date(1982, 1, 23), datetime.date(2022, 3, 7), 'CLERK', Decimal('1300.00'), None, Decimal('10'), 'New Hire']
