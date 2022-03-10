@@ -16,33 +16,38 @@ try:
         host="localhost",
         dbname="Sigmoid",
         user="postgres",
-        password="1234",
+        password="Pulkit@22",
         port="5432"
     )
     logging.info("Connection Successful")
 
     cur = conn.cursor(cursor_factory=psycopg2.extras.DictCursor)
 
-
     # Question 2 Write a python program to list the Total compensation  given till his/her last date or till now of all
     # the employees till date in a xlsx file.
 
     logging.info("Question 2")
     logging.info("\nTotal Compensation by Employee till date\n")
-    cur.execute("select emp.empno as employee_number, emp.ename as employee_name, dept.dname as department_name, "
+    cur.execute("select jh.empno as employee_number, emp.ename as employee_name, dept.dname as department_name, "
                 "sum(round((jh.enddate - jh.startdate)/30) * jh.sal) as "
-                "total_compensation, sum(date_part('month',age(jh.enddate, jh.startdate))) as employee_month_spent from "
-                "emp join dept on emp.deptno = dept.deptno join jobhist as jh on emp.empno = jh.empno GROUP BY "
-                "emp.empno, emp.ename, dept.dname;")
+                "total_compensation, "
+                "sum(date_part('month',age(jh.enddate, jh.startdate))) as employee_month_spent from "
+                "jobhist as jh "
+                "join dept on "
+                "jh.deptno = dept.deptno "
+                "join emp on "
+                "jh.empno = emp.empno "
+                "GROUP BY "
+                "jh.empno, emp.ename, dept.dname;")
     data = cur.fetchall()
 
     logging.info("empno ename dname tot_comm month")
     for record in data:
         logging.info(f"{record['employee_number']} "
-              f"{record['employee_name']} "
-              f"{record['department_name']} "
-              f"{record['total_compensation']} "
-              f"{record['employee_month_spent']}")
+                     f"{record['employee_name']} "
+                     f"{record['department_name']} "
+                     f"{record['total_compensation']} "
+                     f"{record['employee_month_spent']}")
 
     wb2 = xlsxwriter.Workbook('/Users/pulkitgupta/code/PycharmProjects/pythonProject/Python_SQL_Assignment/ques2.xlsx')
     worksheet = wb2.add_worksheet()
