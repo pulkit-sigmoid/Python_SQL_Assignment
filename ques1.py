@@ -16,7 +16,7 @@ try:
         host="localhost",
         dbname="Sigmoid",
         user="postgres",
-        password="1234",
+        password="Pulkit@22",
         port="5432"
     )
     logging.info("Connection Successful")
@@ -28,7 +28,9 @@ try:
     logging.info("\nQuestion1")
     logging.info("\nList of employee numbers, names and their managers are\n")
     cur.execute("SELECT a.empno as Employee_Number, a.ename as Employee_Name, b.ename as Manager_Name from emp as a "
-                "inner join emp as b on a.empno=b.mgr")
+                "left join emp "
+                "as b on "
+                "b.empno=a.mgr")
     data = cur.fetchall()
 
     logging.info("empno ename mgr_name")
