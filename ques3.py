@@ -15,7 +15,7 @@ try:
         host="localhost",
         dbname="Sigmoid",
         user="postgres",
-        password="1234",
+        password="Pulkit@22",
         port="5432"
     )
     logging.info("Connection Successful")
